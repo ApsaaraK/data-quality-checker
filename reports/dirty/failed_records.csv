@@ -1,0 +1,138 @@
+﻿check_id,table,row_number,key,detail,record
+required_fields_orders,orders,603,ORD-000602,missing: customer_id,order_id=ORD-000602; order_date=2024-05-06; customer_id=; channel=Website
+required_fields_orders,orders,1297,ORD-001296,missing: customer_id,order_id=ORD-001296; order_date=2024-09-28; customer_id=; channel=Website
+required_fields_orders,orders,1325,ORD-001324,missing: customer_id,order_id=ORD-001324; order_date=2024-10-04; customer_id=; channel=Website
+required_fields_orders,orders,2030,ORD-002029,missing: customer_id,order_id=ORD-002029; order_date=2025-01-22; customer_id=; channel=Mobile App
+required_fields_orders,orders,2044,ORD-002043,missing: customer_id,order_id=ORD-002043; order_date=2025-01-24; customer_id=; channel=Marketplace
+required_fields_orders,orders,2104,ORD-002103,missing: customer_id,order_id=ORD-002103; order_date=2025-02-06; customer_id=; channel=Mobile App
+required_fields_orders,orders,2205,ORD-002204,missing: customer_id,order_id=ORD-002204; order_date=2025-02-23; customer_id=; channel=Website
+required_fields_orders,orders,2977,ORD-002976,missing: customer_id,order_id=ORD-002976; order_date=2025-06-21; customer_id=; channel=Website
+required_fields_orders,orders,3006,ORD-003005,missing: customer_id,order_id=ORD-003005; order_date=2025-06-25; customer_id=; channel=Marketplace
+required_fields_orders,orders,3222,ORD-003221,missing: customer_id,order_id=ORD-003221; order_date=2025-07-27; customer_id=; channel=Mobile App
+required_fields_orders,orders,3548,ORD-003547,missing: customer_id,order_id=ORD-003547; order_date=2025-09-23; customer_id=; channel=Website
+required_fields_orders,orders,3946,ORD-003945,missing: customer_id,order_id=ORD-003945; order_date=2025-11-20; customer_id=; channel=Mobile App
+required_fields_order_items,order_items,368,L000367,missing: quantity,order_item_id=L000367; order_id=ORD-000215; product_id=P016; quantity=; list_price=11900; discount_pct=0.05; returned=0
+required_fields_order_items,order_items,2275,L002274,missing: quantity,order_item_id=L002274; order_id=ORD-001330; product_id=P019; quantity=; list_price=4800; discount_pct=0.0; returned=0
+required_fields_order_items,order_items,2315,L002314,missing: quantity,order_item_id=L002314; order_id=ORD-001351; product_id=P015; quantity=; list_price=3200; discount_pct=0.0; returned=0
+required_fields_order_items,order_items,2595,L002594,missing: quantity,order_item_id=L002594; order_id=ORD-001507; product_id=P012; quantity=; list_price=12900; discount_pct=0.3; returned=0
+required_fields_order_items,order_items,6757,L006756,missing: quantity,order_item_id=L006756; order_id=ORD-003890; product_id=P006; quantity=; list_price=1500; discount_pct=0.3; returned=0
+required_fields_customers,customers,72,C0071,missing: district,customer_id=C0071; district=; province=North Central; signup_date=2023-12-02
+required_fields_customers,customers,103,C0102,missing: district,customer_id=C0102; district=; province=Western; signup_date=2023-04-25
+required_fields_customers,customers,598,C0597,missing: district,customer_id=C0597; district=; province=Southern; signup_date=2023-04-10
+required_fields_products,products,18,P017,missing: category,product_id=P017; product_name=Backpack; category=; list_price=5600; unit_cost=3024.0
+duplicate_ids_orders,orders,123,ORD-000122,id appears 2 times,order_id=ORD-000122; order_date=2024-01-25; customer_id=C0226; channel=Website
+duplicate_ids_orders,orders,219,ORD-000218,id appears 2 times,order_id=ORD-000218; order_date=2024-02-19; customer_id=C0603; channel=Mobile App
+duplicate_ids_orders,orders,274,ORD-000273,id appears 2 times,order_id=ORD-000273; order_date=2024-03-05; customer_id=C0615; channel=Website
+duplicate_ids_orders,orders,1525,ORD-001524,id appears 2 times,order_id=ORD-001524; order_date=2024-11-09; customer_id=C0207; channel=Website
+duplicate_ids_orders,orders,3503,ORD-003502,id appears 2 times,order_id=ORD-003502; order_date=2025-09-15; customer_id=C0260; channel=Mobile App
+duplicate_ids_orders,orders,4167,ORD-000218,id appears 2 times,order_id=ORD-000218; order_date=2024-02-19; customer_id=C0603; channel=Mobile App
+duplicate_ids_orders,orders,4168,ORD-003502,id appears 2 times,order_id=ORD-003502; order_date=2025-09-15; customer_id=C0260; channel=Mobile App
+duplicate_ids_orders,orders,4169,ORD-000273,id appears 2 times,order_id=ORD-000273; order_date=2024-03-05; customer_id=C0615; channel=Website
+duplicate_ids_orders,orders,4170,ORD-001524,id appears 2 times,order_id=ORD-001524; order_date=2024-11-09; customer_id=C0207; channel=Website
+duplicate_ids_orders,orders,4171,ORD-000122,id appears 2 times,order_id=ORD-000122; order_date=2024-01-25; customer_id=C0226; channel=Website
+duplicate_ids_order_items,order_items,920,L000919,id appears 2 times,order_item_id=L000919; order_id=ORD-000546; product_id=P015; quantity=1; list_price=3200; discount_pct=0.05; returned=0
+duplicate_ids_order_items,order_items,2990,L002989,id appears 2 times,order_item_id=L002989; order_id=ORD-001739; product_id=P001; quantity=2; list_price=8900; discount_pct=0.15; returned=0
+duplicate_ids_order_items,order_items,3626,L003625,id appears 2 times,order_item_id=L003625; order_id=ORD-002122; product_id=P011; quantity=2; list_price=2800; discount_pct=0.0; returned=0
+duplicate_ids_order_items,order_items,7219,L002989,id appears 2 times,order_item_id=L002989; order_id=ORD-001739; product_id=P001; quantity=2; list_price=8900; discount_pct=0.15; returned=0
+duplicate_ids_order_items,order_items,7220,L000919,id appears 2 times,order_item_id=L000919; order_id=ORD-000546; product_id=P015; quantity=1; list_price=3200; discount_pct=0.05; returned=0
+duplicate_ids_order_items,order_items,7221,L003625,id appears 2 times,order_item_id=L003625; order_id=ORD-002122; product_id=P011; quantity=2; list_price=2800; discount_pct=0.0; returned=0
+duplicate_ids_customers,customers,268,C0267,id appears 2 times,customer_id=C0267; district=Kandy; province=Central; signup_date=2023-01-23
+duplicate_ids_customers,customers,520,C0519,id appears 2 times,customer_id=C0519; district=Colombo; province=Western; signup_date=2023-06-24
+duplicate_ids_customers,customers,653,C0652,id appears 2 times,customer_id=C0652; district=Kurunegala; province=North Western; signup_date=2023-11-01
+duplicate_ids_customers,customers,702,C0652,id appears 2 times,customer_id=C0652; district=Kurunegala; province=North Western; signup_date=2023-11-01
+duplicate_ids_customers,customers,703,C0267,id appears 2 times,customer_id=C0267; district=Kandy; province=Central; signup_date=2023-01-23
+duplicate_ids_customers,customers,704,C0519,id appears 2 times,customer_id=C0519; district=Colombo; province=Western; signup_date=2023-06-24
+duplicate_ids_products,products,11,P010,id appears 2 times,product_id=P010; product_name=Electric Kettle; category=Home & Kitchen; list_price=5400; unit_cost=3456.0
+duplicate_ids_products,products,32,P010,id appears 2 times,product_id=P010; product_name=Electric Kettle; category=Home & Kitchen; list_price=5400; unit_cost=3456.0
+invalid_dates_orders,orders,606,,'31/02/2025' is not a valid date,order_id=ORD-000605; order_date=31/02/2025; customer_id=C0520; channel=Website
+invalid_dates_orders,orders,940,,'2025-13-40' is not a valid date,order_id=ORD-000939; order_date=2025-13-40; customer_id=C0364; channel=Website
+invalid_dates_orders,orders,1034,,after 2025-12-31 (in the future),order_id=ORD-001033; order_date=2035-06-15; customer_id=C0185; channel=Mobile App
+invalid_dates_orders,orders,1216,,'2025/07/04' is not a valid date,order_id=ORD-001215; order_date=2025/07/04; customer_id=C0566; channel=Mobile App
+invalid_dates_orders,orders,1681,,'not recorded' is not a valid date,order_id=ORD-001680; order_date=not recorded; customer_id=C0348; channel=Website
+invalid_dates_orders,orders,1826,,before 2015-01-01,order_id=ORD-001825; order_date=1999-03-02; customer_id=C0272; channel=Mobile App
+invalid_dates_orders,orders,2546,,'2025-00-10' is not a valid date,order_id=ORD-002545; order_date=2025-00-10; customer_id=C0129; channel=Mobile App
+invalid_dates_orders,orders,3161,,'15-Mar-2025' is not a valid date,order_id=ORD-003160; order_date=15-Mar-2025; customer_id=C0646; channel=Website
+invalid_dates_customers,customers,243,,after 2025-12-31 (in the future),customer_id=C0242; district=Colombo; province=Western; signup_date=2090-01-01
+invalid_dates_customers,customers,573,,'2023-13-01' is not a valid date,customer_id=C0572; district=Colombo; province=Western; signup_date=2023-13-01
+invalid_dates_customers,customers,616,,'unknown' is not a valid date,customer_id=C0615; district=Colombo; province=Western; signup_date=unknown
+invalid_dates_customers,customers,668,,'2023-02-30' is not a valid date,customer_id=C0667; district=Colombo; province=Western; signup_date=2023-02-30
+positive_values_order_items,order_items,51,L000050,quantity=-1 (must be a positive number),order_item_id=L000050; order_id=ORD-000030; product_id=P009; quantity=-1; list_price=7600; discount_pct=0.0; returned=0
+positive_values_order_items,order_items,1011,L001010,quantity=-1 (must be a positive number),order_item_id=L001010; order_id=ORD-000597; product_id=P018; quantity=-1; list_price=3900; discount_pct=0.0; returned=0
+positive_values_order_items,order_items,1136,L001135,quantity=-1 (must be a positive number),order_item_id=L001135; order_id=ORD-000667; product_id=P017; quantity=-1; list_price=5600; discount_pct=0.0; returned=0
+positive_values_order_items,order_items,1467,L001466,quantity=-1 (must be a positive number),order_item_id=L001466; order_id=ORD-000858; product_id=P018; quantity=-1; list_price=3900; discount_pct=0.0; returned=0
+positive_values_order_items,order_items,1522,L001521,list_price=0 (must be a positive number),order_item_id=L001521; order_id=ORD-000889; product_id=P004; quantity=2; list_price=0; discount_pct=0.0; returned=0
+positive_values_order_items,order_items,1787,L001786,list_price=0 (must be a positive number),order_item_id=L001786; order_id=ORD-001049; product_id=P015; quantity=1; list_price=0; discount_pct=0.0; returned=0
+positive_values_order_items,order_items,1941,L001940,quantity=-1 (must be a positive number),order_item_id=L001940; order_id=ORD-001138; product_id=P017; quantity=-1; list_price=5600; discount_pct=0.0; returned=0
+positive_values_order_items,order_items,2927,L002926,quantity=-1 (must be a positive number),order_item_id=L002926; order_id=ORD-001700; product_id=P004; quantity=-1; list_price=7800; discount_pct=0.1; returned=0
+positive_values_order_items,order_items,3248,L003247,quantity=-1 (must be a positive number),order_item_id=L003247; order_id=ORD-001897; product_id=P022; quantity=-1; list_price=8900; discount_pct=0.2; returned=0
+positive_values_order_items,order_items,3288,L003287,quantity=-1 (must be a positive number),order_item_id=L003287; order_id=ORD-001924; product_id=P011; quantity=-1; list_price=2800; discount_pct=0.0; returned=0
+positive_values_order_items,order_items,3488,L003487,quantity=-1 (must be a positive number),order_item_id=L003487; order_id=ORD-002039; product_id=P022; quantity=-1; list_price=8900; discount_pct=0.0; returned=0
+positive_values_order_items,order_items,3650,L003649,list_price=0 (must be a positive number),order_item_id=L003649; order_id=ORD-002132; product_id=P008; quantity=1; list_price=0; discount_pct=0.0; returned=0
+positive_values_order_items,order_items,3963,L003962,quantity=-1 (must be a positive number),order_item_id=L003962; order_id=ORD-002307; product_id=P029; quantity=-1; list_price=1800; discount_pct=0.0; returned=0
+positive_values_order_items,order_items,4052,L004051,list_price=0 (must be a positive number),order_item_id=L004051; order_id=ORD-002359; product_id=P015; quantity=1; list_price=0; discount_pct=0.0; returned=0
+positive_values_order_items,order_items,4653,L004652,quantity=-1 (must be a positive number),order_item_id=L004652; order_id=ORD-002714; product_id=P016; quantity=-1; list_price=11900; discount_pct=0.0; returned=0
+positive_values_order_items,order_items,4782,L004781,quantity=-1 (must be a positive number),order_item_id=L004781; order_id=ORD-002789; product_id=P010; quantity=-1; list_price=5400; discount_pct=0.05; returned=0
+positive_values_order_items,order_items,5640,L005639,quantity=-1 (must be a positive number),order_item_id=L005639; order_id=ORD-003259; product_id=P026; quantity=-1; list_price=8800; discount_pct=0.05; returned=0
+positive_values_order_items,order_items,5803,L005802,list_price=0 (must be a positive number),order_item_id=L005802; order_id=ORD-003348; product_id=P025; quantity=1; list_price=0; discount_pct=0.05; returned=0
+positive_values_order_items,order_items,5945,L005944,list_price=0 (must be a positive number),order_item_id=L005944; order_id=ORD-003426; product_id=P005; quantity=1; list_price=0; discount_pct=0.05; returned=0
+positive_values_order_items,order_items,6474,L006473,quantity=-1 (must be a positive number),order_item_id=L006473; order_id=ORD-003725; product_id=P018; quantity=-1; list_price=3900; discount_pct=0.0; returned=0
+positive_values_order_items,order_items,6778,L006777,quantity=-1 (must be a positive number),order_item_id=L006777; order_id=ORD-003904; product_id=P004; quantity=-1; list_price=7800; discount_pct=0.2; returned=0
+discount_range_order_items,order_items,907,L000906,discount_pct=1.5 (allowed 0 to 1),order_item_id=L000906; order_id=ORD-000539; product_id=P020; quantity=1; list_price=2600; discount_pct=1.5; returned=0
+discount_range_order_items,order_items,2462,L002461,discount_pct=1.5 (allowed 0 to 1),order_item_id=L002461; order_id=ORD-001431; product_id=P020; quantity=1; list_price=2600; discount_pct=1.5; returned=0
+discount_range_order_items,order_items,2564,L002563,discount_pct=1.5 (allowed 0 to 1),order_item_id=L002563; order_id=ORD-001487; product_id=P002; quantity=2; list_price=4500; discount_pct=1.5; returned=0
+discount_range_order_items,order_items,5460,L005459,discount_pct=1.5 (allowed 0 to 1),order_item_id=L005459; order_id=ORD-003167; product_id=P016; quantity=1; list_price=11900; discount_pct=1.5; returned=0
+discount_range_order_items,order_items,5993,L005992,discount_pct=1.5 (allowed 0 to 1),order_item_id=L005992; order_id=ORD-003452; product_id=P005; quantity=1; list_price=3200; discount_pct=1.5; returned=0
+discount_range_order_items,order_items,6308,L006307,discount_pct=1.5 (allowed 0 to 1),order_item_id=L006307; order_id=ORD-003634; product_id=P006; quantity=1; list_price=1500; discount_pct=1.5; returned=0
+discount_range_order_items,order_items,6462,L006461,discount_pct=1.5 (allowed 0 to 1),order_item_id=L006461; order_id=ORD-003718; product_id=P003; quantity=1; list_price=18500; discount_pct=1.5; returned=0
+cost_above_price_products,products,8,P007,unit_cost=29400.0 is above list_price=24500,product_id=P007; product_name=Air Fryer; category=Home & Kitchen; list_price=24500; unit_cost=29400.0
+cost_above_price_products,products,24,P023,unit_cost=1440.0 is above list_price=1200,product_id=P023; product_name=Lip Balm Set; category=Beauty & Care; list_price=1200; unit_cost=1440.0
+orphan_orders_customer,orders,8,ORD-000007,customer_id=C9648 not found in customers.customer_id,order_id=ORD-000007; order_date=2024-01-02; customer_id=C9648; channel=Website
+orphan_orders_customer,orders,317,ORD-000316,customer_id=C9519 not found in customers.customer_id,order_id=ORD-000316; order_date=2024-03-12; customer_id=C9519; channel=Marketplace
+orphan_orders_customer,orders,400,ORD-000399,customer_id=C9284 not found in customers.customer_id,order_id=ORD-000399; order_date=2024-04-02; customer_id=C9284; channel=Website
+orphan_orders_customer,orders,493,ORD-000492,customer_id=C9634 not found in customers.customer_id,order_id=ORD-000492; order_date=2024-04-14; customer_id=C9634; channel=Website
+orphan_orders_customer,orders,508,ORD-000507,customer_id=C9272 not found in customers.customer_id,order_id=ORD-000507; order_date=2024-04-17; customer_id=C9272; channel=Mobile App
+orphan_orders_customer,orders,663,ORD-000662,customer_id=C9393 not found in customers.customer_id,order_id=ORD-000662; order_date=2024-05-18; customer_id=C9393; channel=Website
+orphan_orders_customer,orders,874,ORD-000873,customer_id=C9305 not found in customers.customer_id,order_id=ORD-000873; order_date=2024-07-05; customer_id=C9305; channel=Mobile App
+orphan_orders_customer,orders,970,ORD-000969,customer_id=C9910 not found in customers.customer_id,order_id=ORD-000969; order_date=2024-07-25; customer_id=C9910; channel=Marketplace
+orphan_orders_customer,orders,1168,ORD-001167,customer_id=C9484 not found in customers.customer_id,order_id=ORD-001167; order_date=2024-09-06; customer_id=C9484; channel=Mobile App
+orphan_orders_customer,orders,1679,ORD-001678,customer_id=C9755 not found in customers.customer_id,order_id=ORD-001678; order_date=2024-12-03; customer_id=C9755; channel=Mobile App
+orphan_orders_customer,orders,1793,ORD-001792,customer_id=C9172 not found in customers.customer_id,order_id=ORD-001792; order_date=2024-12-15; customer_id=C9172; channel=Mobile App
+orphan_orders_customer,orders,1816,ORD-001815,customer_id=C9175 not found in customers.customer_id,order_id=ORD-001815; order_date=2024-12-16; customer_id=C9175; channel=Marketplace
+orphan_orders_customer,orders,1828,ORD-001827,customer_id=C9215 not found in customers.customer_id,order_id=ORD-001827; order_date=2024-12-19; customer_id=C9215; channel=Website
+orphan_orders_customer,orders,1923,ORD-001922,customer_id=C9547 not found in customers.customer_id,order_id=ORD-001922; order_date=2025-01-05; customer_id=C9547; channel=Mobile App
+orphan_orders_customer,orders,1969,ORD-001968,customer_id=C9295 not found in customers.customer_id,order_id=ORD-001968; order_date=2025-01-11; customer_id=C9295; channel=Website
+orphan_orders_customer,orders,2166,ORD-002165,customer_id=C9253 not found in customers.customer_id,order_id=ORD-002165; order_date=2025-02-18; customer_id=C9253; channel=Marketplace
+orphan_orders_customer,orders,2214,ORD-002213,customer_id=C9864 not found in customers.customer_id,order_id=ORD-002213; order_date=2025-02-25; customer_id=C9864; channel=Marketplace
+orphan_orders_customer,orders,2441,ORD-002440,customer_id=C9561 not found in customers.customer_id,order_id=ORD-002440; order_date=2025-04-01; customer_id=C9561; channel=Mobile App
+orphan_orders_customer,orders,2682,ORD-002681,customer_id=C9706 not found in customers.customer_id,order_id=ORD-002681; order_date=2025-05-01; customer_id=C9706; channel=Mobile App
+orphan_orders_customer,orders,2767,ORD-002766,customer_id=C9681 not found in customers.customer_id,order_id=ORD-002766; order_date=2025-05-14; customer_id=C9681; channel=Mobile App
+orphan_orders_customer,orders,3040,ORD-003039,customer_id=C9946 not found in customers.customer_id,order_id=ORD-003039; order_date=2025-07-01; customer_id=C9946; channel=Mobile App
+orphan_orders_customer,orders,3076,ORD-003075,customer_id=C9272 not found in customers.customer_id,order_id=ORD-003075; order_date=2025-07-06; customer_id=C9272; channel=Website
+orphan_orders_customer,orders,3645,ORD-003644,customer_id=C9487 not found in customers.customer_id,order_id=ORD-003644; order_date=2025-10-10; customer_id=C9487; channel=Website
+orphan_orders_customer,orders,3861,ORD-003860,customer_id=C9335 not found in customers.customer_id,order_id=ORD-003860; order_date=2025-11-11; customer_id=C9335; channel=Website
+orphan_orders_customer,orders,4133,ORD-004132,customer_id=C9214 not found in customers.customer_id,order_id=ORD-004132; order_date=2025-12-12; customer_id=C9214; channel=Mobile App
+orphan_items_order,order_items,326,L000325,order_id=ORD-977295 not found in orders.order_id,order_item_id=L000325; order_id=ORD-977295; product_id=P027; quantity=1; list_price=14500; discount_pct=0.05; returned=0
+orphan_items_order,order_items,425,L000424,order_id=ORD-966903 not found in orders.order_id,order_item_id=L000424; order_id=ORD-966903; product_id=P020; quantity=3; list_price=2600; discount_pct=0.05; returned=0
+orphan_items_order,order_items,1876,L001875,order_id=ORD-968878 not found in orders.order_id,order_item_id=L001875; order_id=ORD-968878; product_id=P011; quantity=2; list_price=2800; discount_pct=0.1; returned=0
+orphan_items_order,order_items,2050,L002049,order_id=ORD-981970 not found in orders.order_id,order_item_id=L002049; order_id=ORD-981970; product_id=P006; quantity=1; list_price=1500; discount_pct=0.05; returned=0
+orphan_items_order,order_items,2147,L002146,order_id=ORD-942371 not found in orders.order_id,order_item_id=L002146; order_id=ORD-942371; product_id=P016; quantity=1; list_price=11900; discount_pct=0.05; returned=0
+orphan_items_order,order_items,2440,L002439,order_id=ORD-923253 not found in orders.order_id,order_item_id=L002439; order_id=ORD-923253; product_id=P016; quantity=1; list_price=11900; discount_pct=0.0; returned=0
+orphan_items_order,order_items,2456,L002455,order_id=ORD-998859 not found in orders.order_id,order_item_id=L002455; order_id=ORD-998859; product_id=P027; quantity=1; list_price=14500; discount_pct=0.0; returned=1
+orphan_items_order,order_items,2701,L002700,order_id=ORD-923292 not found in orders.order_id,order_item_id=L002700; order_id=ORD-923292; product_id=P011; quantity=1; list_price=2800; discount_pct=0.15; returned=0
+orphan_items_order,order_items,2722,L002721,order_id=ORD-929521 not found in orders.order_id,order_item_id=L002721; order_id=ORD-929521; product_id=P006; quantity=1; list_price=1500; discount_pct=0.2; returned=0
+orphan_items_order,order_items,2906,L002905,order_id=ORD-969646 not found in orders.order_id,order_item_id=L002905; order_id=ORD-969646; product_id=P011; quantity=1; list_price=2800; discount_pct=0.15; returned=0
+orphan_items_order,order_items,3169,L003168,order_id=ORD-967527 not found in orders.order_id,order_item_id=L003168; order_id=ORD-967527; product_id=P009; quantity=2; list_price=7600; discount_pct=0.1; returned=1
+orphan_items_order,order_items,3240,L003239,order_id=ORD-933095 not found in orders.order_id,order_item_id=L003239; order_id=ORD-933095; product_id=P008; quantity=1; list_price=9800; discount_pct=0.1; returned=0
+orphan_items_order,order_items,3775,L003774,order_id=ORD-963380 not found in orders.order_id,order_item_id=L003774; order_id=ORD-963380; product_id=P011; quantity=1; list_price=2800; discount_pct=0.0; returned=1
+orphan_items_order,order_items,4329,L004328,order_id=ORD-993526 not found in orders.order_id,order_item_id=L004328; order_id=ORD-993526; product_id=P023; quantity=1; list_price=1200; discount_pct=0.05; returned=1
+orphan_items_order,order_items,4331,L004330,order_id=ORD-955496 not found in orders.order_id,order_item_id=L004330; order_id=ORD-955496; product_id=P012; quantity=1; list_price=12900; discount_pct=0.15; returned=0
+orphan_items_order,order_items,5579,L005578,order_id=ORD-984218 not found in orders.order_id,order_item_id=L005578; order_id=ORD-984218; product_id=P019; quantity=2; list_price=4800; discount_pct=0.0; returned=0
+orphan_items_order,order_items,5670,L005669,order_id=ORD-914727 not found in orders.order_id,order_item_id=L005669; order_id=ORD-914727; product_id=P015; quantity=1; list_price=3200; discount_pct=0.0; returned=0
+orphan_items_order,order_items,5851,L005850,order_id=ORD-983524 not found in orders.order_id,order_item_id=L005850; order_id=ORD-983524; product_id=P001; quantity=1; list_price=8900; discount_pct=0.0; returned=0
+orphan_items_order,order_items,6353,L006352,order_id=ORD-940709 not found in orders.order_id,order_item_id=L006352; order_id=ORD-940709; product_id=P014; quantity=1; list_price=7200; discount_pct=0.0; returned=0
+orphan_items_order,order_items,6446,L006445,order_id=ORD-926630 not found in orders.order_id,order_item_id=L006445; order_id=ORD-926630; product_id=P005; quantity=3; list_price=3200; discount_pct=0.0; returned=0
+orphan_items_product,order_items,1367,L001366,product_id=P999 not found in products.product_id,order_item_id=L001366; order_id=ORD-000800; product_id=P999; quantity=1; list_price=18500; discount_pct=0.2; returned=0
+orphan_items_product,order_items,3408,L003407,product_id=P999 not found in products.product_id,order_item_id=L003407; order_id=ORD-001993; product_id=P999; quantity=2; list_price=7600; discount_pct=0.0; returned=0
+orphan_items_product,order_items,3550,L003549,product_id=P999 not found in products.product_id,order_item_id=L003549; order_id=ORD-002076; product_id=P999; quantity=1; list_price=2400; discount_pct=0.05; returned=0
+orphan_items_product,order_items,4790,L004789,product_id=P999 not found in products.product_id,order_item_id=L004789; order_id=ORD-002793; product_id=P999; quantity=1; list_price=2400; discount_pct=0.05; returned=0
+freshness_orders,orders,,orders,"latest order_date is 2025-12-14, 17 days before 2025-12-31 (limit 7 days)",

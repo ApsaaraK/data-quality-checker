@@ -1,0 +1,18 @@
+﻿check_id,family,table,severity,description,status,rows_checked,rows_failed,pct_failed,example
+required_fields_orders,Missing required fields,orders,critical,"Every order has an ID, date, customer and channel",FAIL,4170.0,12.0,0.29,row 603: missing: customer_id
+required_fields_order_items,Missing required fields,order_items,critical,Every order line has all its fields,FAIL,7220.0,5.0,0.07,row 368: missing: quantity
+required_fields_customers,Missing required fields,customers,warning,"Every customer has an ID, location and signup date",FAIL,703.0,3.0,0.43,row 72: missing: district
+required_fields_products,Missing required fields,products,critical,"Every product has a name, category, price and cost",FAIL,31.0,1.0,3.23,row 18: missing: category
+duplicate_ids_orders,Duplicate IDs,orders,critical,order_id is unique,FAIL,4170.0,10.0,0.24,row 123: id appears 2 times
+duplicate_ids_order_items,Duplicate IDs,order_items,critical,order_item_id is unique,FAIL,7220.0,6.0,0.08,row 920: id appears 2 times
+duplicate_ids_customers,Duplicate IDs,customers,critical,customer_id is unique,FAIL,703.0,6.0,0.85,row 268: id appears 2 times
+duplicate_ids_products,Duplicate IDs,products,critical,product_id is unique,FAIL,31.0,2.0,6.45,row 11: id appears 2 times
+invalid_dates_orders,Invalid dates,orders,critical,"order_date is a real date, not in the future",FAIL,4170.0,8.0,0.19,row 606: '31/02/2025' is not a valid date
+invalid_dates_customers,Invalid dates,customers,warning,"signup_date is a real date, not in the future",FAIL,703.0,4.0,0.57,row 243: after 2025-12-31 (in the future)
+positive_values_order_items,Unexpected values,order_items,critical,quantity and list_price are positive numbers,FAIL,7220.0,21.0,0.29,row 51: quantity=-1 (must be a positive number)
+discount_range_order_items,Unexpected values,order_items,critical,discount_pct is between 0 and 1,FAIL,7220.0,7.0,0.1,row 907: discount_pct=1.5 (allowed 0 to 1)
+cost_above_price_products,Unexpected values,products,warning,unit_cost does not exceed list_price,FAIL,31.0,2.0,6.45,row 8: unit_cost=29400.0 is above list_price=24500
+orphan_orders_customer,Broken references,orders,critical,Every order belongs to a known customer,FAIL,4158.0,25.0,0.6,row 8: customer_id=C9648 not found in customers.customer_id
+orphan_items_order,Broken references,order_items,critical,Every order line belongs to a known order,FAIL,7220.0,20.0,0.28,row 326: order_id=ORD-977295 not found in orders.order_id
+orphan_items_product,Broken references,order_items,critical,Every order line refers to a known product,FAIL,7220.0,4.0,0.06,row 1367: product_id=P999 not found in products.product_id
+freshness_orders,Freshness,orders,critical,Latest order is no more than 7 days old,FAIL,,,,"latest order_date is 2025-12-14, 17 days before 2025-12-31 (limit 7 days)"
