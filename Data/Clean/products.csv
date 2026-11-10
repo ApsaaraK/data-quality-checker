@@ -1,0 +1,31 @@
+product_id,product_name,category,list_price,unit_cost
+P001,Wireless Earbuds,Electronics,8900,6942.0
+P002,Power Bank 10000mAh,Electronics,4500,3420.0
+P003,Smart Watch,Electronics,18500,14800.0
+P004,Bluetooth Speaker,Electronics,7800,6006.0
+P005,USB-C Fast Charger,Electronics,3200,2240.0
+P006,Phone Case,Electronics,1500,675.0
+P007,Air Fryer,Home & Kitchen,24500,16660.0
+P008,Rice Cooker,Home & Kitchen,9800,6468.0
+P009,Non-stick Pan Set,Home & Kitchen,7600,4560.0
+P010,Electric Kettle,Home & Kitchen,5400,3456.0
+P011,Food Storage Set,Home & Kitchen,2800,1540.0
+P012,Dinner Set,Home & Kitchen,12900,7998.0
+P013,Cotton T-Shirt,Fashion,2400,1200.0
+P014,Denim Jeans,Fashion,7200,4032.0
+P015,Handloom Sarong,Fashion,3200,1664.0
+P016,Sneakers,Fashion,11900,7140.0
+P017,Backpack,Fashion,5600,3024.0
+P018,Sunglasses,Fashion,3900,1872.0
+P019,Face Serum,Beauty & Care,4800,1824.0
+P020,Sunscreen SPF50,Beauty & Care,2600,1092.0
+P021,Herbal Shampoo,Beauty & Care,1900,760.0
+P022,Perfume,Beauty & Care,8900,4005.0
+P023,Lip Balm Set,Beauty & Care,1200,432.0
+P024,Hair Dryer,Beauty & Care,6900,4002.0
+P025,Yoga Mat,Sports & Outdoor,3400,1904.0
+P026,Dumbbell Set,Sports & Outdoor,8800,5632.0
+P027,Cricket Bat,Sports & Outdoor,14500,9570.0
+P028,Running Shoes,Sports & Outdoor,13500,8370.0
+P029,Water Bottle,Sports & Outdoor,1800,900.0
+P030,Camping Tent,Sports & Outdoor,16900,11492.0
