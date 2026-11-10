@@ -1,0 +1,19 @@
+{
+  "required_fields_orders": 12,
+  "orphan_orders_customer": 25,
+  "invalid_dates_orders": 8,
+  "duplicate_ids_orders": 10,
+  "positive_values_order_items": 21,
+  "discount_range_order_items": 7,
+  "orphan_items_order": 20,
+  "orphan_items_product": 4,
+  "required_fields_order_items": 5,
+  "duplicate_ids_order_items": 6,
+  "invalid_dates_customers": 4,
+  "required_fields_customers": 3,
+  "duplicate_ids_customers": 6,
+  "cost_above_price_products": 2,
+  "required_fields_products": 1,
+  "duplicate_ids_products": 2,
+  "freshness_orders": "FAIL"
+}
