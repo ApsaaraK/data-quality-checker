@@ -1,0 +1,29 @@
+{
+  "tables": ["customers", "products", "orders", "order_items"],
+  "date_formats": ["%Y-%m-%d"],
+  "min_date": "2015-01-01",
+  "checks": [
+    {"id": "required_fields_orders", "family": "Missing required fields", "type": "required_fields", "table": "orders", "columns": ["order_id", "order_date", "customer_id", "channel"], "severity": "critical", "description": "Every order has an ID, date, customer and channel"},
+    {"id": "required_fields_order_items", "family": "Missing required fields", "type": "required_fields", "table": "order_items", "columns": ["order_item_id", "order_id", "product_id", "quantity", "list_price", "discount_pct", "returned"], "severity": "critical", "description": "Every order line has all its fields"},
+    {"id": "required_fields_customers", "family": "Missing required fields", "type": "required_fields", "table": "customers", "columns": ["customer_id", "district", "province", "signup_date"], "severity": "warning", "description": "Every customer has an ID, location and signup date"},
+    {"id": "required_fields_products", "family": "Missing required fields", "type": "required_fields", "table": "products", "columns": ["product_id", "product_name", "category", "list_price", "unit_cost"], "severity": "critical", "description": "Every product has a name, category, price and cost"},
+
+    {"id": "duplicate_ids_orders", "family": "Duplicate IDs", "type": "duplicate_ids", "table": "orders", "column": "order_id", "severity": "critical", "description": "order_id is unique"},
+    {"id": "duplicate_ids_order_items", "family": "Duplicate IDs", "type": "duplicate_ids", "table": "order_items", "column": "order_item_id", "severity": "critical", "description": "order_item_id is unique"},
+    {"id": "duplicate_ids_customers", "family": "Duplicate IDs", "type": "duplicate_ids", "table": "customers", "column": "customer_id", "severity": "critical", "description": "customer_id is unique"},
+    {"id": "duplicate_ids_products", "family": "Duplicate IDs", "type": "duplicate_ids", "table": "products", "column": "product_id", "severity": "critical", "description": "product_id is unique"},
+
+    {"id": "invalid_dates_orders", "family": "Invalid dates", "type": "valid_dates", "table": "orders", "column": "order_date", "severity": "critical", "description": "order_date is a real date, not in the future"},
+    {"id": "invalid_dates_customers", "family": "Invalid dates", "type": "valid_dates", "table": "customers", "column": "signup_date", "severity": "warning", "description": "signup_date is a real date, not in the future"},
+
+    {"id": "positive_values_order_items", "family": "Unexpected values", "type": "positive_values", "table": "order_items", "columns": ["quantity", "list_price"], "severity": "critical", "description": "quantity and list_price are positive numbers"},
+    {"id": "discount_range_order_items", "family": "Unexpected values", "type": "value_range", "table": "order_items", "column": "discount_pct", "min": 0, "max": 1, "severity": "critical", "description": "discount_pct is between 0 and 1"},
+    {"id": "cost_above_price_products", "family": "Unexpected values", "type": "not_greater_than", "table": "products", "column": "unit_cost", "other_column": "list_price", "severity": "warning", "description": "unit_cost does not exceed list_price"},
+
+    {"id": "orphan_orders_customer", "family": "Broken references", "type": "foreign_key", "table": "orders", "column": "customer_id", "ref_table": "customers", "ref_column": "customer_id", "severity": "critical", "description": "Every order belongs to a known customer"},
+    {"id": "orphan_items_order", "family": "Broken references", "type": "foreign_key", "table": "order_items", "column": "order_id", "ref_table": "orders", "ref_column": "order_id", "severity": "critical", "description": "Every order line belongs to a known order"},
+    {"id": "orphan_items_product", "family": "Broken references", "type": "foreign_key", "table": "order_items", "column": "product_id", "ref_table": "products", "ref_column": "product_id", "severity": "critical", "description": "Every order line refers to a known product"},
+
+    {"id": "freshness_orders", "family": "Freshness", "type": "freshness", "table": "orders", "column": "order_date", "max_age_days": 7, "severity": "critical", "description": "Latest order is no more than 7 days old"}
+  ]
+}
